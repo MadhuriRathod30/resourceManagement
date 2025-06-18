@@ -19,6 +19,5 @@ public class Department {
     int id;
     String name;
 
-    @OneToMany(mappedBy = "department")
-    private List<Employee> employees;
+
 }
