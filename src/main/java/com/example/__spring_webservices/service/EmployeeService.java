@@ -11,7 +11,7 @@ import java.util.Optional;
 public class EmployeeService {
 
     @Autowired
-    EmployeeRepository employeeRepository;
+    private EmployeeRepository employeeRepository;
 
     public Optional<Employee> getById(int empId) {
         return employeeRepository.findById(empId);
